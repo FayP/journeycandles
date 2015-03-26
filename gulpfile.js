@@ -14,7 +14,7 @@ var gulp = require('gulp'),
 
 
 gulp.task('css', function () {
-  gulp.start('header_css');
+  //gulp.start('header_css');
   return gulp.src('src/sass/*.scss')
   .pipe(sass({ style: 'expanded' }))
   .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
@@ -65,7 +65,7 @@ gulp.task('watch', function () {
 //   jsWatcher.on('change', function(event) {
 //       console.log(event.type, event.path);
 //   });
-// });
+});
 
 //*****DEFAULT****//
 gulp.task('default', ['clean'], function() {
