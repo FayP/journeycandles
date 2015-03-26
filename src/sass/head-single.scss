@@ -1,0 +1,28 @@
+.heads{
+  width: 100%;
+  padding: 120px 0 50px;
+  -webkit-background-size:cover !important;
+  -moz-background-size:cover !important;
+  -ms-background-size:cover;
+  -o-background-size:cover !important;
+  _background-size:cover;
+  *background-size:cover;
+  background-size:cover !important;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.heads h2{
+  font-size: 44px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 1px 0 #666666;
+}
+
+.heads h2 span{
+  color: #1ABC9C;
+}

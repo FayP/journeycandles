@@ -1,0 +1,100 @@
+.blog-sidebar .widget{
+  margin-bottom: 30px;
+}
+
+.blog-sidebar .widget h3{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.blog-sidebar .widget ul{
+  list-style-type: none;
+  margin-left: 3px;
+}
+
+.column-posts {
+  position: relative;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 10px;
+  padding-bottom: 15px;
+  padding-left: 0px;
+  min-height: 50px;
+}
+
+.column-posts .featured-post-img img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 55px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.column-posts .featured-post-content{
+  margin-left: 65px;
+}
+
+.column-posts .featured-post-content h5{
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 18px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.blog-sidebar .widget ul > li > a{
+  color: #1ABC9C;
+  transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+}
+
+.blog-sidebar .widget ul > li > a:hover{
+  color: #16A085;
+}
+
+.widget-tags:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.widget-tags ul{
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.widget-tags ul > li{
+  float: left;
+  margin-bottom: 13px;
+}
+
+.widget-tags ul > li > a{
+  border: 1px solid #16A085;
+  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #ffffff !important;
+  text-decoration: none;
+  background: #1ABC9C;
+  transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+
+.widget-tags ul > li > a:hover{
+  border-color: #16A085;
+  color: #ffffff !important;
+  text-decoration: none;
+  background: #16A085;
+  transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}

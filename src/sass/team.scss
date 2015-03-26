@@ -1,0 +1,39 @@
+#theteam .team-container{
+  position: relative;
+  text-align: center;
+}
+
+#theteam .team-container h3{
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+#theteam .team-container .featured-photos{
+  padding: 25px 45px;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background: #1ABC9C;
+  max-width: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#theteam .team-container .featured-photos:after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 15px solid #1ABC9C;
+  border-bottom: 0px solid transparent ;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  left: 50%;
+  bottom: -14px;
+  margin-left: -20px;
+}

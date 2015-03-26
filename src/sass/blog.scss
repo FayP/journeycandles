@@ -1,0 +1,236 @@
+
+#blog{
+  padding: 40px 0;
+  background: #ffffff;
+  width: 100%;
+  text-align: center;
+}
+
+#blog h2{
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #444444;
+}
+
+#blog .blog-container{
+  position: relative;
+  text-align: center;
+}
+
+#blog .blog-container h3{
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+#blog .blog-container h3 a{
+  color: #2C3E50;
+  transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+}
+
+#blog .blog-container h3 a:hover{
+  color: #1ABC9C;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+}
+
+
+#blog .blog-container .blog-date{
+  padding: 25px 45px;
+  border-radius: 3px;
+  background: #1ABC9C;
+  max-width: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#blog .blog-container .blog-date:after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 15px solid #1ABC9C;
+  border-bottom: 0px solid transparent ;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  margin-top: -10px;
+  top: 50%;
+  left: 0;
+  bottom: 0px;
+  margin-left: -25px;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+}
+
+#blog .blog-container .blog-date i{
+  color: #ffffff;
+  font-size: 68px;
+  line-height: 70px;
+}
+
+#blog .blog-container .blog-date .meta-date{
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+#blog .blog-container .blog-date .meta-month-year{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.blog{
+  padding-bottom: 20px;
+}
+
+.blog .blog-post{
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.blog .blog-single{
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.blog h2{
+  font-size: 30px;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 30px;
+  color: #2C3E50;
+}
+
+.blog h2 a{
+  color: #2C3E50;
+  transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+}
+
+.blog h2 a:hover{
+  color: #1ABC9C;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+}
+
+.blog-meta{
+  position: absolute;
+  font-size: 11px;
+  color: #888888;
+  margin-top: -25px;
+}
+
+.blog-meta span{
+  margin-right: 20px;
+}
+
+.blog-meta a{
+  color: #888888;
+  text-decoration: none;
+}
+
+.blog-meta a:hover{
+  color: #1ABC9C;
+  text-decoration: none;
+}
+
+.blog .the-calendar{
+  background: #1ABC9C;
+  width: 60px;
+  height: 63px;
+  border-radius: 3px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #ffffff;
+  text-align: center;
+  float: left;
+  padding: 5px;
+  margin-top: -10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.blog .the-calendar:before{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px;
+  border-top: 10px solid transparent ;
+  border-bottom: 10px solid transparent ;
+  border-right: 10px solid #1ABC9C;
+  border-left: 10px solid transparent;
+  top: 50%;
+  margin-top: -10px;
+  left: 0;
+  bottom: 0px;
+  margin-left: -20px;
+}
+
+.blog .the-calendar > .the-date{
+  font-size: 12px;
+  display: block;
+  font-weight: 400;
+  line-height: 16px;
+
+}
+
+.blog .the-calendar > .the-comments{
+  font-size: 12px;
+  line-height: 16px;
+  display: block;
+  font-weight: 400;
+  border-top: 1px dotted #ffffff;
+  margin: 3px 0;
+  padding: 2px 0 0;
+
+}
+
+.blog .the-calendar > .the-comments i{
+  font-size: 14px;
+}
+
+.blog .meta-tags{
+  margin: 20px 0 0;
+  text-transform: uppercase;
+  color: #888888;
+}
+
+.meta-tags a{
+  color: #888888;
+  text-decoration: none;
+}
+
+.meta-tags a:hover{
+  color: #1ABC9C;
+  text-decoration: none;
+}
