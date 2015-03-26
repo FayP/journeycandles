@@ -4,7 +4,6 @@ var gulp = require('gulp'),
   watch = require('gulp-watch'),
   autoprefixer = require('gulp-autoprefixer'),
   minifycss = require('gulp-minify-css'),
-  streamqueue = require('streamqueue'), //not sure if we'll need this yet
   jshint = require('gulp-jshint'),
   uglify = require('gulp-uglify'),
   imagemin = require('gulp-imagemin'),
@@ -13,7 +12,7 @@ var gulp = require('gulp'),
   concat = require('gulp-concat'),
   cache = require('gulp-cache'); //we should use this but can add it later on
 
-//
+
 gulp.task('css', function () {
   gulp.start('header_css');
   return gulp.src('src/sass/*.scss')
@@ -55,12 +54,12 @@ gulp.task('clean', function() {
   .pipe(clean());
 });
 //
-// // Watch
-// gulp.task('watch', function () {
-//   var cssWatcher = gulp.watch(['src/sass/**/*.scss'], ['css']);
-//   cssWatcher.on('change', function(event) {
-//       console.log(event.type, event.path);
-//   });
+// Watch
+gulp.task('watch', function () {
+  var cssWatcher = gulp.watch(['src/sass/**/*.scss'], ['css']);
+  cssWatcher.on('change', function(event) {
+      console.log(event.type, event.path);
+  });
 //
 //   var jsWatcher = gulp.watch(['src/js/**/*.js'], ['javascript']);
 //   jsWatcher.on('change', function(event) {
