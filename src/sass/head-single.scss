@@ -12,17 +12,17 @@
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
-}
 
-.heads h2{
-  font-size: 44px;
-  line-height: 48px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-shadow: 1px 0 #666666;
-}
+  h2{
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 1px 0 #666666;
+  }
 
-.heads h2 span{
-  color: #1ABC9C;
+  h2 span{
+    color: #1ABC9C;
+  }
 }

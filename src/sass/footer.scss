@@ -4,105 +4,103 @@
   padding: 30px 0;
   text-align: center;
   color: #ffffff;
-}
 
-#footer h3{
-  text-transform: uppercase;
-  font-size: 26px;
-  line-height: 30px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
+  h3{
+    text-transform: uppercase;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
 
-#footer .social-icon{
-  display: table;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+  .social-icon{
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
-#footer .social-icon > li{
-  display: inline;
-}
+    & > li{
+      display: inline;
+      & > a{
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        background: #16A085;
+        position: relative;
+        -o-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        border-radius: 4px;
+        margin: 10px 5px;
+      }
 
-#footer .social-icon > li > a{
-  width: 60px;
-  height: 60px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  background: #16A085;
-  position: relative;
-  -o-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
-  margin: 10px 5px;
-}
+      & > a > span{
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 32px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -13px;
+        margin-top: -15px;
+        color: #222222;
+        -o-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
 
-#footer .social-icon > li > a > span{
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 32px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -13px;
-  margin-top: -15px;
-  color: #222222;
-  -o-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
+      & > a:hover > span{
+        color: #ffffff;
+      }
 
-#footer .social-icon > li > a:hover > span{
-  color: #ffffff;
-}
+      & > .icon-facebook:hover{
+        background: #4467AD;
+      }
 
-#footer .social-icon > li > .icon-facebook:hover{
-  background: #4467AD;
-}
+      & > .icon-twitter:hover{
+        background: #4099FF;
+      }
 
-#footer .social-icon > li > .icon-twitter:hover{
-  background: #4099FF;
-}
+      & > .icon-youtube:hover,
+      & > .icon-gplus:hover {
+        background: #FF4B4B;
+      }
 
-#footer .social-icon > li > .icon-youtube:hover,
-#footer .social-icon > li > .icon-gplus:hover {
-  background: #FF4B4B;
-}
+      & > .icon-linkedin:hover{
+        background: #6e99b2;
+      }
 
-#footer .social-icon > li > .icon-linkedin:hover{
-  background: #6e99b2;
-}
+      & > .icon-instagram:hover{
+        background: #B9C6D0;
+      }
+    }
+  }
 
-#footer .social-icon > li > .icon-instagram:hover{
-  background: #B9C6D0;
-}
-
-#footer .sitemap > *{
-  margin-left: auto;
-  margin-right: auto;
-  display: table;
-}
-
-#footer .sitemap > ul{
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 20px;
-}
-
-#footer .sitemap > ul > li{
-  float: left;
-}
-
-#footer .sitemap > ul > li > a{
-  text-transform: uppercase;
-  padding: 5px 10px;
-  font-size: 14px;
-  color: #ffffff;
+  .sitemap {
+    & > ul{
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 20px;
+    }
+    & > *{
+      margin-left: auto;
+      margin-right: auto;
+      display: table;
+    }
+    & > ul > li{
+      float: left;
+      & > a{
+        text-transform: uppercase;
+        padding: 5px 10px;
+        font-size: 14px;
+        color: #ffffff;
+      }
+    }
+  }
 }
